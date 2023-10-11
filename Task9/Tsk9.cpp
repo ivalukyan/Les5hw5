@@ -39,6 +39,6 @@ int main(){
     }
     see_arr(arr, N);
     nechet(arr, N);
-    cout << check(arr, N);
+    cout << "Check: " << check(arr, N) << endl;
     see_arr(arr, N);
 }
