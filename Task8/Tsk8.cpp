@@ -16,6 +16,7 @@ void see_arr(int* arr, int n){
     for (int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
+    cout << "\n";
 }
 
 int main(){
@@ -27,5 +28,6 @@ int main(){
     }
     see_arr(arr, N);
     mult(arr, N);
+    cout << "-------------" << endl;
     see_arr(arr, N);
 }
