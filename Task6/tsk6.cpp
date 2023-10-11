@@ -4,12 +4,14 @@ using namespace std;
 void see_arr(int* arr, const int n){
     int cnt = 0;
     for (int i = 0; i < n; i++){
-        if (arr[i] == 0 && cnt < 3){
-            cnt++;
-            cout << i;
+        if (arr[i] != 0 && cnt == 1){
+            cout << i << " ";
         }
-        else {
-            break;
+        else{
+            if(arr[i] == 0){
+                 cnt++;
+            }
+           
         }
     }
 }
